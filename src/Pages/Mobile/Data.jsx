@@ -13,7 +13,8 @@ const data = [
      header:"pritesHeader",
      name: "Prizes ",
      text: `من خلال هذا التطبيق يمكنك لعب ألعاب و مشاهدة إعلانات و كسب دولارات الموقع يدفع يوميا على بايبال`,
-     link:"wijdioej"
+     link:"wijdioej",
+     go: "/mobile/prizes"
    },
    {
     id:1,
@@ -22,7 +23,8 @@ const data = [
     header:"pritesHeader",
     name: "Clipclaps ",
     text: `من خلال هذا التطبيق يمكنك لعب ألعاب و مشاهدة إعلانات و كسب دولارات الموقع يدفع يوميا على بايبال`,
-    link:"wijdioej"
+    link:"wijdioej",
+    go:"/mobile/clipclap"
   },
   {
     id:2,
@@ -31,25 +33,18 @@ const data = [
     header:"pritesHeader",
     name: "Coin pop ",
     text: `من خلال هذا التطبيق يمكنك لعب ألعاب و مشاهدة إعلانات و كسب دولارات الموقع يدفع يوميا على بايبال`,
-    link:"wijdioej"
+    link:"wijdioej",
+    go:"/mobile/coinpop"
   },
-  {
-    id:3,
-    title: "تطبيق رااائع و سهل صدقني صادق في الدفع",
-    url: Empire,
-    header:"pritesHeader",
-    name: "Cash Empire ",
-    text: `من خلال هذا التطبيق يمكنك لعب ألعاب و مشاهدة إعلانات و كسب دولارات الموقع يدفع يوميا على بايبال`,
-    link:"wijdioej"
-  },
-  {
+ {
     id:4,
     title: "تطبيق رااائع و سهل صدقني صادق في الدفع",
     url: greward,
     header:"pritesHeader",
     name: "Prizes ",
     text: `من خلال هذا التطبيق يمكنك لعب ألعاب و مشاهدة إعلانات و كسب دولارات الموقع يدفع يوميا على بايبال`,
-    link:"wijdioej"
+    link:"wijdioej",
+    go: "/mobile/greward"
   }
 ];
 

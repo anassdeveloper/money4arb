@@ -13,6 +13,7 @@
         background: var(--color-rose);
         padding: .3rem;
         position: relative;
+        box-shadow:5px 5px 10px rgba(0,0,0, 0.3);
 
         & h3{
             margin: 1rem 0;
@@ -67,5 +68,13 @@
                 }
             }
         }
+    }
+}
+
+.jeux{
+    & h1{
+        font-family: 'Changa', sans-serif;
+        font-weight: 700;
+        color: var(--color-pink);
     }
 }

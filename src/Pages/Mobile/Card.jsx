@@ -2,9 +2,9 @@ import { faEye, faBook} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from "react-router-dom";
 
-const Card = ({id,url,name, title, text, link,fn}) =>{
+const Card = ({id,url,name, title, text, link,fn, go}) =>{
     return(
-        <div className="mcontent_card" key={id} onClick = {fn}>
+        <div className="mcontent_card" key={id}>
              <div className="mcontent_card_head">
              <img src={url} alt="log"/>
              <span>{ name}</span>
@@ -16,7 +16,7 @@ const Card = ({id,url,name, title, text, link,fn}) =>{
                 <span>
                 تحميل
                 </span><FontAwesomeIcon icon={faEye} /></a>
-                <Link to="" >
+                <Link to={go} >
                     <span>اقرأ المزيد</span>
                     <FontAwesomeIcon icon={faBook} />
                 </Link>
