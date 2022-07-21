@@ -1,0 +1,54 @@
+.navo{
+    background:var(--color-orange);
+    padding: 0 2rem;
+    min-height: 4.5rem;
+    
+    &_icon{
+      outline-color: var(--color-yellow);
+      color: var(--color-pink);
+    }
+    &_logo{
+      font-family: 'Rampart One', cursive;
+      color: var(--color-pink);
+      font-size: 2.4rem;
+      padding-bottom: .8rem;
+    }
+    &_box ul li{
+      padding: 0 1rem;
+      text-align: center;
+      transition: all .3s linear;
+      height: 100%;
+      line-height: 3.5rem;
+      
+
+      &:hover{
+        border-bottom: 3px solid var(--color-yellow);
+         
+      }
+      &:hover a{
+        color:var(--color-yellow);
+      }
+
+      & a{
+        color: #fff;
+        font-size: 1.1rem;
+        font-weight: 700;
+        
+      }
+    }
+}
+@media screen and (max-width:700px) {
+    .navo{
+      padding: 1rem;
+
+      &_logo{
+        font-size: 1.5rem;
+        padding: 0;
+      }
+      
+    }
+
+    .navo_box{
+        margin-top: 1.5rem;
+    }
+}

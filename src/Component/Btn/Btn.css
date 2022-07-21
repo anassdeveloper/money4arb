@@ -1,0 +1,49 @@
+.btno{
+    color: var(--color-cyan);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 22px;
+    position: relative;
+    cursor: pointer;
+    direction: ltr;
+    font-size: 1.8rem;
+    width: 11rem;
+    margin-right: 2re;
+
+}
+
+.btno::before{
+    content: '';
+    background: rgb(67, 226, 67);
+    position: absolute;
+    height: 65px;
+    width: 65px;
+    z-index: -1;
+    border-radius: 50px;
+    top: 50%;
+    transform: translateY(-50%) translateX(calc(100% + 30px));
+     transition: transform .25s .25s
+     cubic-bezier(0,0, .5, 2),
+     width .25s cubic-bezier(0,0, .5, 2);
+}
+.btno:hover{
+    color: #fff;
+}
+.btno:hover:before{
+    width: 100%;
+    transform: translateY(-50%) translateX(-18px);
+    transition: transform .25s cubic-bezier(0,0, .5, 2),
+    width .25s .25s cubic-bezier(0,0, .5, 2);
+}
+.btno .ic {
+    color: var(--color-white);
+    margin-left: 15px;
+    transition: transform .25s .4s cubic-bezier(0,0, .5, 2);
+}
+
+.btno:hover .ic {
+    transform: translateX(3px);
+}
+

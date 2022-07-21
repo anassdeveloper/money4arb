@@ -1,0 +1,11 @@
+.footer{
+    background-color: var(--color-orange);
+
+    & ul li a{
+        color: #fff !important;
+    }
+    & p{
+        color: var(--color-pink);
+        font-size: 1.2rem;
+    }
+}

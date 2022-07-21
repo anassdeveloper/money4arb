@@ -1,0 +1,59 @@
+
+.Home{
+    &_row{
+        &_box{
+            
+            display: flex;
+            flex-direction: column;
+            
+
+            & h1{
+                font-size: 2.6rem;
+                margin-bottom: 1.5rem;
+                font-family: 'Changa', sans-serif;
+                font-weight: bold;
+                color: var(--color-rose);
+            }
+            & p{
+                font-size: 1.2rem;
+                line-height: 1.5;
+                margin-bottom: 1.3rem;
+                color: rgb(139, 139, 139);
+            }
+
+            & img{
+                width: 750px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px) {
+    .Home{
+        padding: 0 .5rem;
+        text-align: center;
+        &_row{
+            &_box:nth-child(1){
+                justify-content: center;
+                align-items: center;
+                & h1{
+                    font-size: 2.2rem;
+                }
+
+                & p{
+                    font-size: 1rem;
+                }
+                
+                
+                
+            }
+
+            &_box{
+
+                & img{
+                    width: 110%;
+                }
+            }
+        }
+    }
+}
