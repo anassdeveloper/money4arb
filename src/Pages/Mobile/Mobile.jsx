@@ -10,7 +10,7 @@ import Clip from "./Articles/Clip/Clip";
 import Coin from "./Articles/Coin/Coin";
 import Grward from "./Articles/Grward/Grward";
 
-const Mobile = () => {
+const Mobile = ({fn}) => {
 
     
     return(
@@ -33,7 +33,7 @@ const Mobile = () => {
                 </div>
             </Switch>
             <main>
-              <CardList database = {data} />
+              <CardList database = {data} fn = {fn} />
             </main>
         </div>
         </Router>

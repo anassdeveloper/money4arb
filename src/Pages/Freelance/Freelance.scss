@@ -1,0 +1,9 @@
+.Freelance{
+    min-height: 100vh;
+    direction: rtl;
+
+    & a{
+        display: inline-block;
+        margin: 2rem auto;
+    }
+}

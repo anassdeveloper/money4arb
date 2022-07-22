@@ -3,7 +3,7 @@ import clipHeader from "../../photo/clipHeader.jpg";
 const Clip = () => {
     return(
       <article>
-        <div className="bg-light p-5 rounded my-5">
+        <div className="bg-light p-4 rounded my-4">
           <h1>الربح من خلال مشاهدة مقاطع فيديو ClipClaps هو </h1>
           <p className="lead">من خلال هذا التطبيق يمكنك الكسب عند
            مشاهدتك لمقاطع الفيديو الموقع

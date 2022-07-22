@@ -3,7 +3,7 @@ import coinHeader from "../../photo/coinHeader.jpg";
 const Coin = () => {
     return(
       <article>
-        <div className="bg-light p-5 rounded my-5">
+        <div className="bg-light p-4 rounded my-4">
           <h1>CoinPop يمكنك من الربح بدون حدود حسب وقتك</h1>
           <p className="lead">هذا تطبيق صدقيني صادق و يمكنك
            الكسب بدون حدود حتى لو إشتغلت عليه

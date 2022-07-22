@@ -17,7 +17,7 @@ const Card = ({id,url,name, title, text, link,fn, go}) =>{
                 تحميل
                 </span><FontAwesomeIcon icon={faEye} /></a>
                 <Link to={go} >
-                    <span>اقرأ المزيد</span>
+                    <span onClick={fn}>اقرأ المزيد</span>
                     <FontAwesomeIcon icon={faBook} />
                 </Link>
              </div>

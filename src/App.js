@@ -5,11 +5,16 @@ import './App.css';
 
 import Home from './Pages/Home';
 import Mobile from './Pages/Mobile/Mobile';
-import Web from './Pages/Web';
-import Freelance from './Pages/Freelance';
+import Web from './Pages/Web/Web';
+import Freelance from './Pages/Freelance/Freelance';
 import Start from "./Pages/Start/Start"
 
 function App() {
+
+  const fnc = () =>{
+    document.querySelector('.navbar').scrollIntoView({ behavior: 'smooth' });
+
+  }
   return (
     <Router>
         <div className="App">
@@ -23,7 +28,7 @@ function App() {
                   <Home />
                 </Route>
                 <Route path="/mobile">
-                    <Mobile />
+                    <Mobile fn = {fnc} />
                 </Route>
                 <Route path="/web">
                   <Web />
@@ -32,7 +37,7 @@ function App() {
                    <Freelance />
                 </Route>
                 <Route path="/start">
-                   <Start />
+                   <Start fn = {fnc}/>
                 </Route>
              </Switch>
            </div>

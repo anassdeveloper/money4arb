@@ -3,7 +3,7 @@ import prizesHeader from "../../photo/prizesHeader.jpg";
 const Prizes = () => {
     return(
       <article>
-        <div className="bg-light p-5 rounded my-5">
+        <div className="bg-light p-3 rounded my-3">
           <h1>تطبيق رائع و مصنف الأول Prizes</h1>
           <p className="lead">من خلال هذا التطبيق
            يمكنك لعب ألعاب و مشاهدة الإعلانات

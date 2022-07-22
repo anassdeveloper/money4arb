@@ -5,7 +5,7 @@ import "./Start.scss";
 import { Link } from "react-router-dom";
 
 
-const Start = () => {
+const Start = ({fn}) => {
     return(
         <main className="start py-5">
            <div className="container py-5">
@@ -23,7 +23,7 @@ const Start = () => {
                            من أموال يمكنك تعلم
                            التصميم، التسويق أو البرمجة </p>
                       </div>
-                      <button className="btn btn-lg btn-info"><Link to="/web" className="link">ابدأ في التعلم</Link></button>
+                      <button className="btn btn-lg btn-info" onClick = {fn}><Link to="/web" className="link">ابدأ في التعلم</Link></button>
                     </div>
                  </div>
 
@@ -37,7 +37,7 @@ const Start = () => {
                            و كسب بعض دولارات هنا ستجد شرح بعض التطبيقات </p>
                       </div>
                       <button className="btn btn-lg btn-info">
-                      <Link to="/mobile" className="link">ابدأ في التعلم</Link>
+                      <Link to="/mobile" onClick = {fn} className="link">ابدأ في التعلم</Link>
                       </button>
                     </div>
                  </div>
@@ -54,7 +54,7 @@ const Start = () => {
                           </p>
                       </div>
                       <button className="btn btn-lg btn-info">
-                      <Link to="/freelance" className="link">ابدأ في التعلم</Link>
+                      <Link to="/freelance" onClick = {fn} className="link">ابدأ في التعلم</Link>
                       </button>
                     </div>
                  </div>

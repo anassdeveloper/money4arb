@@ -1,7 +1,7 @@
 import Card from "./Card";
 
 
-const CardList = ({ database }) =>{
+const CardList = ({ database , fn}) =>{
     const newData = database.map((el, i) =>{
         return(
             <Card 
@@ -12,6 +12,7 @@ const CardList = ({ database }) =>{
                 url = {el.url}
                 link = {el.link}
                 go = {el.go}
+                fn = {fn}
             />
         )
     });
