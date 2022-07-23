@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/money4arb/static/css/main.6f09c028.css",
-    "main.js": "/money4arb/static/js/main.b3ca76d6.js",
-    "static/media/Empire.png": "/money4arb/static/media/Empire.8dce5ffc68b08388311a.png",
-    "static/media/coin.png": "/money4arb/static/media/coin.0d45d629a9c7952dbb7b.png",
-    "static/media/greward.jpg": "/money4arb/static/media/greward.d4f037e7c3d4db2bd730.jpg",
-    "static/media/clip.png": "/money4arb/static/media/clip.15ca0deaef49324ab314.png",
-    "static/media/coinHeader.jpg": "/money4arb/static/media/coinHeader.1846574df42829d373ce.jpg",
-    "static/media/prizes.jpg": "/money4arb/static/media/prizes.e35020f903d64f2caf09.jpg",
-    "static/media/clipHeader.jpg": "/money4arb/static/media/clipHeader.46726b793bccbfd31b52.jpg",
-    "static/media/grewardHeader.jpeg": "/money4arb/static/media/grewardHeader.717ef32f4982227e09a6.jpeg",
-    "static/media/img.png": "/money4arb/static/media/img.3b513f6605c526b84ed5.png",
-    "static/media/prizesHeader.jpg": "/money4arb/static/media/prizesHeader.1ed8cd85dfba553b7206.jpg",
-    "static/media/earn.jpg": "/money4arb/static/media/earn.7008c97e42c21a69d454.jpg",
-    "static/media/mob.svg": "/money4arb/static/media/mob.bf04d0d2b33e95642d5cc8182b1bb1f0.svg",
-    "static/media/mobile.svg": "/money4arb/static/media/mobile.4e3c4600a37f95c721857aeb3e14df0a.svg",
-    "static/media/freelance.svg": "/money4arb/static/media/freelance.2b273b6f0b315c049e5b92506efcc391.svg",
-    "index.html": "/money4arb/index.html",
-    "main.6f09c028.css.map": "/money4arb/static/css/main.6f09c028.css.map",
-    "main.b3ca76d6.js.map": "/money4arb/static/js/main.b3ca76d6.js.map"
+    "main.css": "/static/css/main.6f09c028.css",
+    "main.js": "/static/js/main.30206f18.js",
+    "static/media/Empire.png": "/static/media/Empire.8dce5ffc68b08388311a.png",
+    "static/media/coin.png": "/static/media/coin.0d45d629a9c7952dbb7b.png",
+    "static/media/greward.jpg": "/static/media/greward.d4f037e7c3d4db2bd730.jpg",
+    "static/media/clip.png": "/static/media/clip.15ca0deaef49324ab314.png",
+    "static/media/coinHeader.jpg": "/static/media/coinHeader.1846574df42829d373ce.jpg",
+    "static/media/prizes.jpg": "/static/media/prizes.e35020f903d64f2caf09.jpg",
+    "static/media/clipHeader.jpg": "/static/media/clipHeader.46726b793bccbfd31b52.jpg",
+    "static/media/grewardHeader.jpeg": "/static/media/grewardHeader.717ef32f4982227e09a6.jpeg",
+    "static/media/img.png": "/static/media/img.3b513f6605c526b84ed5.png",
+    "static/media/prizesHeader.jpg": "/static/media/prizesHeader.1ed8cd85dfba553b7206.jpg",
+    "static/media/earn.jpg": "/static/media/earn.7008c97e42c21a69d454.jpg",
+    "static/media/mob.svg": "/static/media/mob.bf04d0d2b33e95642d5cc8182b1bb1f0.svg",
+    "static/media/mobile.svg": "/static/media/mobile.4e3c4600a37f95c721857aeb3e14df0a.svg",
+    "static/media/freelance.svg": "/static/media/freelance.2b273b6f0b315c049e5b92506efcc391.svg",
+    "index.html": "/index.html",
+    "main.6f09c028.css.map": "/static/css/main.6f09c028.css.map",
+    "main.30206f18.js.map": "/static/js/main.30206f18.js.map"
   },
   "entrypoints": [
     "static/css/main.6f09c028.css",
-    "static/js/main.b3ca76d6.js"
+    "static/js/main.30206f18.js"
   ]
 }
